@@ -377,6 +377,9 @@ declare module "mongoose" {
     ciphers?: string;
     ecdhCurve?: string;
 
+    /** To support new url parser in mongodb latest version*/
+    useNewUrlParser?: boolean;
+
     // TODO
     safe?: any;
     fsync?: any;
